@@ -1,0 +1,4 @@
+001 :: empada de frango :: R$7.50
+002 :: file com fritas :: R$80.00
+003 :: suco de cajú :: R$4.60
+004 :: torrada :: R$2.50
