@@ -1,0 +1,4 @@
+001 :: bolo de chocolate :: R$7.50 
+002 :: pastel de frango :: R$8.60 
+003 :: suco de caj� :: R$4.00 
+004 :: pastel de carne :: R$7.50 
