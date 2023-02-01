@@ -3,13 +3,9 @@ from menu import Menu
 from funcoes import arquivoBebidas, arquivoPratos, arquivoSobremesas, verificaCodigo
 
 
-
 while True:
-    opcao = int(input('DIGITE UMA OPÇÃO\n1 - ENTRAR NO MENU\n2 - ADICIONAR PRODUTO\n3 - SAIR DO PROGRAMA\n --> '))
+    opcao = int(input('DIGITE UMA OPÇÃO\n1 - ADICIONAR PRODUTOS  \n2 - ENTRAR NO MENU\n3 - PEDIDO\n0 - SAIR DO PROGRAMA\n --> '))
     if opcao == 1:
-        Menu()
-
-    elif opcao == 2:
         resposta2 = 0
         while  resposta2 != 4:
             print('1 - Pratos\n2 - Bebidas\n3 - Sobremesas')
@@ -43,8 +39,15 @@ while True:
                 
             resposta2 = int(input('Deseja adicionar outro produto?\n SIM: 3 NÃO: 4 > '))
             produto = Produto(codigo, nomeProduto, precoProduto)
+        
+
+    elif opcao == 2:
+        Menu()
+
             
 
     elif opcao == 3:
-        break
+        pass
     
+    else:
+        break

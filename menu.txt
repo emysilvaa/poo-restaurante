@@ -1,6 +1,171 @@
 ====PRATOS====:
-001::pão::4.50::
+001::espaguete::10.00::
+002::misto quente::10.00::
 ====BEBIDAS====:
-001::café::4.50::
+001::coca-cola::5.00::
+002::suco de laranja::5.00::
 ====SOBREMESAS====:
-001::torta de limão::5.60::
+001::pudim::3.50::
+002::bolo de chocolate::4.00::
+====PRATOS====:
+001::espaguete::10.00::
+002::misto quente::10.00::
+====BEBIDAS====:
+001::coca-cola::5.00::
+002::suco de laranja::5.00::
+====SOBREMESAS====:
+001::pudim::3.50::
+002::bolo de chocolate::4.00::
+====PRATOS====:
+001::espaguete::10.00::
+002::misto quente::10.00::
+====BEBIDAS====:
+001::coca-cola::5.00::
+002::suco de laranja::5.00::
+====SOBREMESAS====:
+001::pudim::3.50::
+002::bolo de chocolate::4.00::
+====PRATOS====:
+001::espaguete::10.00::
+002::misto quente::10.00::
+====BEBIDAS====:
+001::coca-cola::5.00::
+002::suco de laranja::5.00::
+====SOBREMESAS====:
+001::pudim::3.50::
+002::bolo de chocolate::4.00::
+====PRATOS====:
+001::espaguete::10.00::
+002::misto quente::10.00::
+====BEBIDAS====:
+001::coca-cola::5.00::
+002::suco de laranja::5.00::
+====SOBREMESAS====:
+001::pudim::3.50::
+002::bolo de chocolate::4.00::
+====PRATOS====:
+001::espaguete::10.00::
+002::misto quente::10.00::
+====BEBIDAS====:
+001::coca-cola::5.00::
+002::suco de laranja::5.00::
+====SOBREMESAS====:
+001::pudim::3.50::
+002::bolo de chocolate::4.00::
+====PRATOS====:
+001::espaguete::10.00::
+002::misto quente::10.00::
+====BEBIDAS====:
+001::coca-cola::5.00::
+002::suco de laranja::5.00::
+====SOBREMESAS====:
+001::pudim::3.50::
+002::bolo de chocolate::4.00::
+====PRATOS====:
+001::espaguete::10.00::
+002::misto quente::10.00::
+====BEBIDAS====:
+001::coca-cola::5.00::
+002::suco de laranja::5.00::
+====SOBREMESAS====:
+001::pudim::3.50::
+002::bolo de chocolate::4.00::
+====PRATOS====:
+001::espaguete::10.00::
+002::misto quente::10.00::
+====BEBIDAS====:
+001::coca-cola::5.00::
+002::suco de laranja::5.00::
+====SOBREMESAS====:
+001::pudim::3.50::
+002::bolo de chocolate::4.00::
+====PRATOS====:
+001::espaguete::10.00::
+002::misto quente::10.00::
+====BEBIDAS====:
+001::coca-cola::5.00::
+002::suco de laranja::5.00::
+====SOBREMESAS====:
+001::pudim::3.50::
+002::bolo de chocolate::4.00::
+====PRATOS====:
+001::espaguete::10.00::
+002::misto quente::10.00::
+====BEBIDAS====:
+001::coca-cola::5.00::
+002::suco de laranja::5.00::
+====SOBREMESAS====:
+001::pudim::3.50::
+002::bolo de chocolate::4.00::
+====PRATOS====:
+001::espaguete::10.00::
+002::misto quente::10.00::
+====BEBIDAS====:
+001::coca-cola::5.00::
+002::suco de laranja::5.00::
+====SOBREMESAS====:
+001::pudim::3.50::
+002::bolo de chocolate::4.00::
+====PRATOS====:
+001::espaguete::10.00::
+002::misto quente::10.00::
+====BEBIDAS====:
+001::coca-cola::5.00::
+002::suco de laranja::5.00::
+====SOBREMESAS====:
+001::pudim::3.50::
+002::bolo de chocolate::4.00::
+====PRATOS====:
+001::espaguete::10.00::
+002::misto quente::10.00::
+====BEBIDAS====:
+001::coca-cola::5.00::
+002::suco de laranja::5.00::
+====SOBREMESAS====:
+001::pudim::3.50::
+002::bolo de chocolate::4.00::
+====PRATOS====:
+001::espaguete::10.00::
+002::misto quente::10.00::
+====BEBIDAS====:
+001::coca-cola::5.00::
+002::suco de laranja::5.00::
+====SOBREMESAS====:
+001::pudim::3.50::
+002::bolo de chocolate::4.00::
+====PRATOS====:
+001::espaguete::10.00::
+002::misto quente::10.00::
+====BEBIDAS====:
+001::coca-cola::5.00::
+002::suco de laranja::5.00::
+====SOBREMESAS====:
+001::pudim::3.50::
+002::bolo de chocolate::4.00::
+====PRATOS====:
+001::espaguete::10.00::
+002::misto quente::10.00::
+====BEBIDAS====:
+001::coca-cola::5.00::
+002::suco de laranja::5.00::
+====SOBREMESAS====:
+001::pudim::3.50::
+002::bolo de chocolate::4.00::
+====PRATOS====:
+001::espaguete::10.00::
+002::misto quente::10.00::
+====BEBIDAS====:
+001::coca-cola::5.00::
+002::suco de laranja::5.00::
+====SOBREMESAS====:
+001::pudim::3.50::
+002::bolo de chocolate::4.00::
+====PRATOS====:
+001::espaguete::10.00::
+002::misto quente::10.00::
+====BEBIDAS====:
+001::coca-cola::5.00::
+002::suco de laranja::5.00::
+====SOBREMESAS====:
+001::pudim::3.50::
+002::bolo de chocolate::4.00::
