@@ -9,9 +9,10 @@ except:
 class Pedido(Menu):
     def __init__(self):
         pass
-  
+    
     def Mostra_Menu(self):
-        print('')
+        print()
+    
     def Realiza_Pedido(self):
         print('Deseja realizar o pedido?')
         self.resposta = input('Digite 1 para SIM e 2 para NÃO: ')
@@ -26,8 +27,7 @@ class Pedido(Menu):
                 self.resposta2 = input('Digite 3 para ADICIONAR e 4 para SAIR: ')
 
 cliente = Pedido()
-cliente.Realiza_Pedido()
-    
+cliente.Mostra_Menu()
 
             
 

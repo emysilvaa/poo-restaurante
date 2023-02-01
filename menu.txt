@@ -1,0 +1,11 @@
+PRATOS:
+001::carne::15.00::
+BEBIDAS:
+001::suco de laranja::5.00::
+SOBREMESAS:
+PRATOS:
+001::carne::15.00::
+BEBIDAS:
+001::suco de laranja::5.00::
+SOBREMESAS:
+001::bolo::15.00::

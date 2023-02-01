@@ -1,24 +1,11 @@
 from produto import Produto
 from menu import Menu
-from funcoes import arquivoBebidas, arquivoPratos, arquivoSobremesas
-
-def verificaCodigo(arquivo, codigo):
-    existe = False
-    with open(arquivo , 'r') as f:
-        pratos = f.readlines()
-        for c in pratos:
-            linha = c.split('::')
-            if linha[0] == codigo:
-                print(f'já existe um produto cadastrado neste código {codigo}! ')
-                existe = True
-                break
-    return existe
-
+from funcoes import arquivoBebidas, arquivoPratos, arquivoSobremesas, verificaCodigo
 while True:
     opcao = int(input('DIGITE UMA OPÇÃO\n1 - ENTRAR NO MENU\n2 - ADICIONAR PRODUTO\n3 - SAIR DO PROGRAMA\n --> '))
     if opcao == 1:
         Menu()
-
+       
     elif opcao == 2:
         resposta2 = 0
         while  resposta2 != 4:
