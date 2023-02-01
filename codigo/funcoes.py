@@ -22,3 +22,15 @@ def arquivoSobremesas():
     except:
         with open('sobremesas.txt', 'w' ) as f:
             f.write('')
+
+def verificaCodigo(arquivo, codigo):
+    existe = False
+    with open(arquivo , 'r') as f:
+        pratos = f.readlines()
+        for c in pratos:
+            linha = c.split('::')
+            if linha[0] == codigo:
+                print(f'já existe um produto cadastrado neste código {codigo}! ')
+                existe = True
+                break
+    return existe

@@ -1,0 +1,4 @@
+001::carne::4.00::
+002::empada::3.00::
+003::batata frita ::6.00::
+004::misto quente::4.30::
