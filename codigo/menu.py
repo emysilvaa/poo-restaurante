@@ -8,37 +8,40 @@ except:
 
 class Menu:
     def __init__(self):
-        print('===============PRATOS============')
+
         with open('pratos.txt','r') as f:
-            pratos = f.readlines()
-        
             pratos = f.readlines()
         
         with open('bebidas.txt','r') as f:
             bebidas = f.readlines()
+
         with open('sobremesas.txt','r') as f:
             sobremesas = f.readlines()
     
         with open('menu.txt','a') as f:
-            f.write('PRATOS:\n')
+            f.write('====PRATOS====:\n')
             for c in pratos:
                 if c:
                     f.write(c)
-            f.write('========BEBIDAS=====:\n')
+            f.write('====BEBIDAS====:\n')
             for c in bebidas:
                 if c:
                     f.write(c)
-            f.write('=============SOBREMESAS======= ===:\n')
+            f.write('====SOBREMESAS====:\n')
             for c in sobremesas:
                 if c:
                         f.write(c)
+
+            print('================PRATOS=============')
             for c in pratos:
                 linha = c.split("::")
                 print(f"{linha[0]}  ||  {linha[1]}  ||  R${linha[2]}")
+
             print('================BEBIDAS=============')
             for c in bebidas:
                 linha = c.split("::")
                 print(f"{linha[0]}  ||  {linha[1]}  ||  R${linha[2]}")
+
             print('==============SOBREMESAS============')
             for c in sobremesas:
                 linha = c.split("::")
