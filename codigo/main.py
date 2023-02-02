@@ -20,7 +20,6 @@ while True:
                 if veri == False:      
                     with open('pratos.txt', 'a') as f:
                         f.write(f'{codigo}::{nomeProduto}::{precoProduto}::\n')
-               
                 
             elif tipoProduto == 2:
                 arquivoBebidas()
@@ -28,6 +27,7 @@ while True:
                 if veri == False:      
                     with open('bebidas.txt', 'a') as f:
                         f.write(f'{codigo}::{nomeProduto}::{precoProduto}::\n')
+    
                 
 
             elif tipoProduto == 3:

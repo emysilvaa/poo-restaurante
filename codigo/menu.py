@@ -16,21 +16,6 @@ try:
     
     with open('sobremesas.txt','r') as f:
         sobremesas = f.readlines()
-    
-    with open('menu.txt','a') as f:
-        f.write('====PRATOS====:\n')
-        for c in pratos:
-            if c:
-                f.write(c)
-        f.write('====BEBIDAS====:\n')
-        for c in bebidas:
-            if c:
-                f.write(c)
-        f.write('====SOBREMESAS====:\n')
-        for c in sobremesas:
-            if c:
-                f.write(c)
-
 except:
     arquivoBebidas()
     arquivoPratos()
@@ -52,6 +37,9 @@ class Menu:
         with open('sobremesas.txt','r') as f:
             sobremesas = f.readlines()
     
+        with open('menu.txt','w') as f:
+            f.write('')
+        
         with open('menu.txt','a') as f:
             f.write('====PRATOS====:\n')
             for c in pratos:
@@ -64,7 +52,7 @@ class Menu:
             f.write('====SOBREMESAS====:\n')
             for c in sobremesas:
                 if c:
-                        f.write(c)
+                    f.write(c)
 
             print('====PRATOS====')
             for c in pratos:
