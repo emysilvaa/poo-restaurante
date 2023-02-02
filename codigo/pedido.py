@@ -14,19 +14,10 @@ class Pedido():
         self.quantidade = quantidade
 
     
-    def Mostra_Menu(self):
-        Menu()
+def mostrarCardapio():
+    Menu()
     
-    def Realiza_Pedido(self):
-        mesa = str(input('Número da mesa -> '))
-        nomeCliente = str(input('Nome do cliente -> '))
-        codigoProduto = str(input('codigo do produto desejado -> '))
-
-        
-a = Pedido('', '', '', '')
-a.Realiza_Pedido()
-
-
+   
             
 
         
