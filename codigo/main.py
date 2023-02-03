@@ -104,8 +104,7 @@ while True:
                                 continue
           
         pedido = Pedido(mesa, nomeCliente, codigoProduto, quantidade)
-        # with open('pedido.txt', 'a') as f:
-            # f.write(f'{mesa}::{nomeCliente}::{linha[1]}::{valorFinal}::\n')
+        
 
     elif opcao == 0:
         break
@@ -114,7 +113,7 @@ while True:
         continue
 
 '''
-PROPOSTA DE CARDÁPIOS:
+PROPOSTA DE CARDÁPIO:
 1) PRATOS:
 001 - Fetuccine - R$ 30.00
 002 - Parmegiana - R$ 35.00
