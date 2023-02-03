@@ -30,7 +30,7 @@ def verificaCodigo(arquivo, codigo):
         for c in pratos:
             linha = c.split('::')
             if linha[0] == codigo:
-                print(f'''== já existe um produto cadastrado neste código {codigo}! == ''')
+                print(f'''== Já existe um produto cadastrado com este código {codigo}! == ''')
                 existe = True
                 break
     return existe
