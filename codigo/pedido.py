@@ -14,10 +14,7 @@ class Pedido():
         self.quantidade = quantidade
 
     
-def mostrarCardapio():
-    Menu()
-    
-   
+
             
 
         

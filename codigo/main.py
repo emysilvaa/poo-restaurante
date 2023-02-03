@@ -1,7 +1,7 @@
 from produto import Produto
 from menu import Menu
 from funcoes import arquivoBebidas, arquivoPratos, arquivoSobremesas, verificaCodigo
-
+from pedido import Pedido
 
 while True:
     opcao = int(input('DIGITE UMA OPÇÃO\n1 - ADICIONAR PRODUTOS  \n2 - ENTRAR NO MENU\n3 - PEDIDO\n0 - SAIR DO PROGRAMA\n --> '))
@@ -66,10 +66,10 @@ while True:
                             valorFinal += pedido * quantidade
                             resposta = str(input('Continuar Pedido: 1\n Fechar Pedido: 2\n ->  '))
                             if resposta == '2':
-                                print(valorFinal)
+                                print(f' valor final do pedido: R${valorFinal}')
+                                resposta2 = str(input('encerrar: 0\n -> '))  
                             elif resposta == '1':
                                 continue
-
 
             elif tipoProduto == 2:
                 with open('bebidas.txt' , 'r') as f:
@@ -82,12 +82,11 @@ while True:
                             valorFinal += pedido * quantidade
                             resposta = str(input('Continuar Pedido: 1\n Fechar Pedido: 2\n ->  '))
                             if resposta == '2':
-                                print(valorFinal)
+                                print(f' valor final do pedido: R${valorFinal}')
+                                resposta2 = str(input('encerrar: 0\n -> '))  
                             elif resposta == '1':
                                 continue
-
-
-
+    
             elif tipoProduto == 3:
                 with open('sobremesas.txt', 'r') as f:
                     sobremesas = f.readlines()
@@ -99,10 +98,15 @@ while True:
                             valorFinal += pedido * quantidade
                             resposta = str(input('Continuar Pedido: 1\n Fechar Pedido: 2\n ->  '))
                             if resposta == '2':
-                                print(valorFinal)
+                                print(f' valor final do pedido: R${valorFinal}')
+                                resposta2 = str(input('encerrar: 0\n -> '))  
                             elif resposta == '1':
                                 continue
-                
+          
+        pedido = Pedido(mesa, nomeCliente, codigoProduto, quantidade)
+        # with open('pedido.txt', 'a') as f:
+            # f.write(f'{mesa}::{nomeCliente}::{linha[1]}::{valorFinal}::\n')
+
     elif opcao == 0:
         break
 
