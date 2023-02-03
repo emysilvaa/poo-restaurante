@@ -1,5 +1,0 @@
-====PRATOS====:
-001::carne::15.00::
-====BEBIDAS====:
-001::coca-col::5.00::
-====SOBREMESAS====:
