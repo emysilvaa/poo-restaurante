@@ -1,31 +1,32 @@
-from funcoes import arquivoBebidas, arquivoPratos, arquivoSobremesas
 
-try:
-    with open('menu.txt', 'r') as f:
-        menu = f.readlines()
-except:  
-    with open('menu.txt', 'w') as f:
-        f.write('')
-
-try:
-    with open('pratos.txt','r') as f:
-        pratos = f.readlines()
-    
-    with open('bebidas.txt', 'r' ) as f:
-        bebidas = f.readlines()
-    
-    with open('sobremesas.txt','r') as f:
-        sobremesas = f.readlines()
-except:
-    arquivoBebidas()
-    arquivoPratos()
-    arquivoSobremesas()
 
 
 
     
 
 class Menu:
+    from funcoes import arquivoBebidas, arquivoPratos, arquivoSobremesas
+
+    try:
+        with open('menu.txt', 'r') as f:
+            menu = f.readlines()
+    except:
+        with open('menu.txt', 'w') as f:
+            f.write('')
+
+    try:
+        with open('pratos.txt','r') as f:
+            pratos = f.readlines()
+    
+        with open('bebidas.txt', 'r' ) as f:
+            bebidas = f.readlines()
+    
+        with open('sobremesas.txt','r') as f:
+            sobremesas = f.readlines()
+    except:
+        arquivoBebidas()
+        arquivoPratos()
+        arquivoSobremesas()
     def __init__(self):
 
         with open('pratos.txt','r') as f:
