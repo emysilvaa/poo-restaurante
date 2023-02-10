@@ -18,10 +18,7 @@ while True:
     elif opcao == 3:
         pedido = Pedido('00', 'clientes', '000', 'quantidade')
         pedido.mostrarCardapio()
-        pedido.fazerPedido('00', 'cliente')    
-
-        
-        
+        pedido.fazerPedido('00', 'Cliente')   
 
     elif opcao == 0:
         break
