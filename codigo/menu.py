@@ -1,12 +1,6 @@
-
-
-
-
-    
+from funcoes import arquivoBebidas, arquivoPratos, arquivoSobremesas
 
 class Menu:
-    from funcoes import arquivoBebidas, arquivoPratos, arquivoSobremesas
-
     try:
         with open('menu.txt', 'r') as f:
             menu = f.readlines()
@@ -76,7 +70,5 @@ class Menu:
 CODIGO | NOME         | PREÇO
 001    | COLA-COLA    | 5.00
 002    | SUCO DE UVA  | 3.00
-003    | SUCO DE SANGU| 2.00
-=========PRATROS=======
-CODIGO | NOME         | PREÇO
+
 '''

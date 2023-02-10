@@ -12,7 +12,7 @@ class Pedido:
         Menu()
 
 
-    def fazerPedido(self, mesa, nomeCliente):
+    def fazerPedido(self):
         resposta2 = 0
         valorFinal = 0
         self.mesa = int(input('Mesa -> '))

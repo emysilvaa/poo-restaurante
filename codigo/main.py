@@ -4,6 +4,7 @@ from pedido import Pedido
 
 while True:
     opcao = int(input('DIGITE UMA OPÇÃO:\n1 - ADICIONAR PRODUTOS  \n2 - ENTRAR NO MENU\n3 - PEDIDO\n0 - SAIR DO PROGRAMA\n --> '))
+
     if opcao == 1:
         produto = Produto('000', 'produtos', '00.00')
         produto.addProdutos()
@@ -33,18 +34,15 @@ while True:
 '''
 PROPOSTA DE CARDÁPIO:
 1) PRATOS:
-001 - Fetuccine - R$ 30.00
+001 - Lasanha - R$ 30.00
 002 - Parmegiana - R$ 35.00
-003 - Strogonoff - R$ 25.00
 
 2) BEBIDAS:
 001 - Coca-cola - R$ 5.00
 002 - Suco de laranja - R$ 5.00
-003 - Chá gelado - R$ 7.00
 
 3) SOBREMESA:
-001 - Mousse de chocolate - R$ 10.00
-002 - Torta de limão - R$ 10.00
-003 - Bolo de cenoura - R$ 10.00
+001 - Torta de Morango - R$ 10.00
+002 - Bolo de cenoura - R$ 10.00
 
 '''
